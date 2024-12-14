@@ -21,8 +21,14 @@ const Custom404: NextPageWithLayout = memo(() => {
     return (
         <Box display="flex" flexDirection={"column"} justifyContent="center" alignItems="center" height="100vh">
             <Typography
-                variant="h3"
-                sx={{ fontFamily: "Inter", fontSize: "110px", fontWeight: 500, lineHeight: "115px" }}
+                variant="h4"
+                sx={{
+                    fontFamily: "Inter",
+                    fontSize: { xs: "24px", md: "40px" },
+                    mt: { xs: "20px", md: "10px" },
+                    fontWeight: 500,
+                    lineHeight: "45px"
+                }}
             >
                 {t("404.title")}
             </Typography>
