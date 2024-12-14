@@ -28,7 +28,7 @@ ProductPage.Layout = MainLayout;
 export default ProductPage;
 
 export const getServerSideProps: GetServerSideProps<ProductPageProps> = async (context: GetServerSidePropsContext) => {
-    const { params, locale } = context;
+    const { params, locale, req } = context;
     const id = params?.id as string | undefined;
 
     if (!id) {
@@ -37,8 +37,12 @@ export const getServerSideProps: GetServerSideProps<ProductPageProps> = async (c
         };
     }
 
+    const protocol = req.headers.host?.includes("localhost") ? "http" : "https";
+    const host = req.headers.host;
+    const API_URL = `${protocol}://${host}`;
+
     try {
-        const response = await fetch(`http://localhost:3000/api/product/${id}`);
+        const response = await fetch(`${API_URL}/api/product/${id}`);
         if (!response.ok) {
             return {
                 notFound: true
