@@ -1,4 +1,4 @@
-import { LoginData, RefreshTokenData, ResponseData, UserData } from "~/types";
+import { LoginData, RefreshTokenData, ResponseData, UserData, UserDataRegister } from "~/types";
 
 import { API_URLS } from "~/constants/api";
 
@@ -17,8 +17,8 @@ export const authApi = (type: "server" | "client" = "client") => {
         me: () => {
             return api.post<ResponseData<UserData>>(API_URLS.PROTECTED_API.GET_ME);
         },
-        register: (user: Partial<UserData>) => {
-            return api.post<ResponseData<UserData>>(API_URLS.PUBLIC_API.AUTH_REGISTER, user);
+        register: (user: Partial<UserDataRegister>) => {
+            return api.post<ResponseData<UserDataRegister>>(API_URLS.PUBLIC_API.AUTH_REGISTER, user);
         },
         refreshToken: (refresh: string) => {
             return api.post<ResponseData<RefreshTokenData>>(API_URLS.PUBLIC_API.AUTH_REFRESH, {

@@ -1,3 +1,9 @@
+export interface UserDataRegister {
+    name: string;
+    contactField: string;
+    password: string;
+}
+
 export interface UserData {
     id?: string;
     firstName: string;

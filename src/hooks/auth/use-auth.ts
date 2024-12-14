@@ -4,7 +4,7 @@ import { AxiosError } from "axios";
 
 import { authApi } from "~/services";
 import { useAuthStore } from "~/stores";
-import { UserData } from "~/types";
+import { UserDataRegister } from "~/types";
 
 import { useCustomSnackbar } from "../use-toast";
 
@@ -71,7 +71,7 @@ export function useAuth() {
         }
     };
 
-    const handleRegister = async (userData: UserData) => {
+    const handleRegister = async (userData: UserDataRegister) => {
         try {
             await getAuthApiServer.register(userData);
 
