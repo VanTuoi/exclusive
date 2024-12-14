@@ -1,0 +1,367 @@
+{
+    "topHeader": {
+        "saleContent": "Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!",
+        "saleLink": "ShopNow",
+        "selectLanguage": "Select Language"
+    },
+    "header": {
+        "searchTitle": "What are you looking for?",
+        "user": {
+            "title": "Open settings",
+            "manageMyAccount": "Manage My Account",
+            "myOrder": "My Order",
+            "myCancellations": "My Cancellations",
+            "myReviews": "My Reviews",
+            "logout": "Logout"
+        }
+    },
+    "footer": {
+        "contact": "Contact",
+        "copy": "Copyright Rimel {{currentYear}}. All right reserved",
+        "email": {
+            "placeholder": "Enter your email"
+        }
+    },
+    "loginPage": {
+        "title": "Log in to Exclusive",
+        "content": "Enter your details below",
+        "form": {
+            "contact": {
+                "label": "Email or Phones Number",
+                "placeholder": "Email or Phones Number"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Password"
+            }
+        },
+        "button": "Login",
+        "forgetPassword": "Forget Password?"
+    },
+    "signUpPage": {
+        "title": "Create an account",
+        "content": "Enter your details below",
+        "form": {
+            "name": {
+                "label": "Full name",
+                "placeholder": "Full name"
+            },
+            "contact": {
+                "label": "Email or Phones Number",
+                "placeholder": "Email or Phones Number"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Password"
+            }
+        },
+        "button": "Login",
+        "haveAccount": "Forget Password?",
+        "linkLogin": "Login"
+    },
+    "loginWithGoogle": "Sign up with Google",
+    "validate": {
+        "name": "Full name",
+        "password": "Password",
+        "minLength": "{{objectName}} must be at least {{minimumValue}} characters",
+        "maxLength": "{{objectName}} maximum {{maximumValue}} characters",
+        "regexSchema": "{{objectName}} must include at least 1 letter 1 number and 1 special character"
+    },
+    "home": {
+        "addToCart": "Add To Cart",
+        "addToCartDialog": {
+            "title": "Add to cart success",
+            "colors": "Color",
+            "size": "Size",
+            "price": "Price",
+            "buttonBack": "Continue Shopping",
+            "buttonCheckout": "Checkout",
+            "similarProduct": "Similar Products"
+        },
+        "categoriesNav": "Categories",
+        "flashSale": {
+            "title": "Today’s",
+            "content": "Flash Sales"
+        },
+        "countingTime": {
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "Seconds"
+        },
+        "categories": {
+            "title": "Categories",
+            "content": "Browse By Category"
+        },
+        "monthSale": {
+            "title": "This Month",
+            "content": "Best Selling Products"
+        },
+        "bottomBanner": {
+            "title": "Categories",
+            "content": "Enhance Your Music Experience",
+            "button": "Buy now !"
+        },
+        "explore": {
+            "title": "Featured",
+            "content": "New Arrival"
+        },
+        "buttonViewAll": "View all products",
+        "arrival": {
+            "title": "Featured",
+            "content": "New Arrival",
+            "item": [
+                {
+                    "title": "PlayStation 5",
+                    "content": "Black and White version of the PS5 coming out on sale."
+                },
+                {
+                    "title": "Women’s Collections",
+                    "content": "Featured woman collections that give you another vibe."
+                },
+                {
+                    "title": "Speakers",
+                    "content": "Amazon wireless speakers"
+                },
+                {
+                    "title": "Perfume",
+                    "content": "GUCCI INTENSE OUD EDP"
+                }
+            ],
+            "button": "Shop Now"
+        },
+        "support": [
+            {
+                "title": "FREE AND FAST DELIVERY",
+                "content": "Free delivery for all orders over {{objectName}}"
+            },
+            {
+                "title": "24/7 CUSTOMER SERVICE",
+                "content": "Friendly 24/7 customer support"
+            },
+            {
+                "title": "MONEY BACK GUARANTEE",
+                "content": "We reurn money within 30 days"
+            }
+        ]
+    },
+    "productDetail": {
+        "review": "Reviews",
+        "inStock": "In Stock",
+        "outStock": "Out Stock",
+        "colors": "Colors",
+        "size": "Sizes",
+        "buttonBuy": "Buy Now",
+        "support": {
+            "deliver": {
+                "title": "Free Delivery",
+                "content": "Enter your postal code for Delivery Availability"
+            },
+            "return": {
+                "title": "Return Delivery",
+                "content": "Free 30 Days Delivery Returns",
+                "details": "Details"
+            }
+        },
+        "relatedItem": "Related Item"
+    },
+    "cart": {
+        "titleButton": "Return To Shop",
+        "table": {
+            "products": "Products",
+            "price": "Price",
+            "quantity": "Quantity",
+            "subtotal": "Subtotal"
+        },
+        "buttonCoupon": "Apply Coupon",
+        "inputCoupon": "Coupon code",
+        "validateCoupon": {
+            "min": "min",
+            "regex": "in validate"
+        },
+        "shipping": "Free",
+        "pay": {
+            "title": "Cart Total",
+            "subtotal": "Subtotal",
+            "shipping": "Shipping",
+            "discount": "Discount",
+            "total": "Total",
+            "button": "Procees to checkout",
+            "removeDiscount": "Remove discount",
+            "expirationDate": "Expiration Date"
+        }
+    },
+    "wishList": {
+        "title": "Wishlist",
+        "button": "Move All To Bag",
+        "justForYou": {
+            "title": "Just For You"
+        }
+    },
+    "checkout": {
+        "title": "Billing Details",
+        "shipping": "Free",
+        "pay": {
+            "title": "Cart Total",
+            "subtotal": "Subtotal",
+            "shipping": "Shipping",
+            "discount": "Discount",
+            "total": "Total",
+            "button": "Procees to checkout",
+            "removeDiscount": "Remove discount",
+            "expirationDate": "Expiration date"
+        },
+        "form": {
+            "firstName": {
+                "label": "First Name"
+            },
+            "companyName": {
+                "label": "Company Name"
+            },
+            "streetAddress": {
+                "label": "Street Address"
+            },
+            "apartment": {
+                "label": "Apartment, floor, etc. (optional)"
+            },
+            "city": {
+                "label": "Town/City"
+            },
+            "phoneNumber": {
+                "label": "Phone Number"
+            },
+            "emailAddress": {
+                "label": "Email Address"
+            },
+            "validate": {
+                "required": "This field is required",
+                "email": "Invalid email address",
+                "phoneNumber": "Invalid phone number"
+            }
+        },
+        "saveInfo": "Save this information for faster check-out next time",
+        "payMethod": {
+            "bank": "Bank",
+            "cash": "Cash on delivery"
+        },
+        "button": "Place Order",
+        "emptyCart": "Your cart is empty"
+    },
+    "profile": {
+        "title": "Edit Your Profile",
+        "form": {
+            "firstName": {
+                "label": "First Name",
+                "validate": {
+                    "required": "First name is required"
+                }
+            },
+            "lastName": {
+                "label": "Last Name"
+            },
+            "emailAddress": {
+                "label": "Email",
+                "validate": {
+                    "required": "Email is required"
+                }
+            },
+            "streetAddress": {
+                "label": "Address",
+                "validate": {
+                    "required": "Address is required"
+                }
+            },
+            "currentPassword": {
+                "label": "Password Changes"
+            },
+            "newPassword": {
+                "label": "New Password"
+            },
+            "confirmNewPassword": {
+                "label": "Confirm New Password",
+                "validate": {
+                    "match": "Passwords do not match"
+                }
+            },
+            "submit": "Save Changes",
+            "cancel": "Cancel"
+        },
+        "passwordSectionTitle": "Password Changes"
+    },
+    "contact": {
+        "info": {
+            "phone": {
+                "title": "Call To Us",
+                "content": "We are available 24/7, 7 days a week.",
+                "text": "Phone"
+            },
+            "mail": {
+                "title": "Write To US",
+                "content": "Fill out our form and we will contact you within 24 hours.",
+                "text": "Emails"
+            }
+        },
+        "form": {
+            "name": {
+                "label": "Your Name",
+                "validate": {
+                    "required": "Your Name is required"
+                }
+            },
+            "email": {
+                "label": "Your Email",
+                "validate": {
+                    "required": "Your Email is required"
+                }
+            },
+            "phone": {
+                "label": "Your Phone",
+                "validate": {
+                    "required": "Your Phone is required"
+                }
+            },
+            "message": {
+                "label": "Your Massage",
+                "validate": {
+                    "required": "Massage is required"
+                }
+            },
+            "submit": "Send Massage"
+        }
+    },
+    "about": {
+        "section1": {
+            "title": "Our Story",
+            "content1": "Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. ",
+            "content2": "Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer."
+        },
+        "section2": [
+            {
+                "title": "10.5k",
+                "content": "Sallers active our site"
+            },
+            {
+                "title": "33k",
+                "content": "Mopnthly Produduct Sale"
+            },
+            {
+                "title": "45.5k",
+                "content": "Customer active in our site"
+            },
+            {
+                "title": "25k",
+                "content": "Anual gross sale in our site"
+            }
+        ]
+    },
+    "404": {
+        "title": "404 Not Found",
+        "content": "Your visited page not found. You may go home page.",
+        "button": "Back To Home Page"
+    },
+    "develop": {
+        "title": "This page is under development",
+        "content": "Please try accessing later",
+        "button": "Back To Home Page"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "next/typescript",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:eqeqeq-fix/recommended",
+        "plugin:import/typescript",
+        "eslint-config-prettier",
+        "prettier",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "no-var": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "semi": ["error", "always"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-trailing-spaces": ["error"],
+        "no-console": "warn",
+        "quotes": ["error", "double"],
+        "no-shadow": "error",
+        "eqeqeq": ["error", "always"],
+        "no-empty-function": ["error"],
+        "react/display-name": "off",
+        "eol-last": ["error", "always"],
+        "no-restricted-imports": [
+            "error",
+            {
+                "paths": [
+                    {
+                        "name": "react-i18next",
+                        "message": "Please use next-i18next import instead to avoid hydration errors"
+                    }
+                ]
+            }
+        ],
+        "import/order": [
+            "error",
+            {
+                "pathGroups": [
+                    {
+                        "pattern": "~/assets/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/components/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/constants/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/hooks/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/layout/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/libs/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/services/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/stores/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/style/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/themes/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/types/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "~/utils/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "next/**",
+                        "group": "builtin",
+                        "position": "before"
+                    }
+                ],
+                "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"],
+                "pathGroupsExcludedImportTypes": ["builtin"],
+                "newlines-between": "always",
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                }
+            }
+        ],
+
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "check-file/filename-naming-convention": [
+            "error",
+            {
+                "**/use*.{ts,tsx}": "KEBAB_CASE",
+                "src/pages/**/!(\\[*\\]).{ts,tsx}": "KEBAB_CASE",
+                "**/!(\\[*\\]|use*|*Provider).{ts,tsx}": "KEBAB_CASE"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [["~", "./src"]],
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "plugins": ["import", "prettier", "check-file"]
+}

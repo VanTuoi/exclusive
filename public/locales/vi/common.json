@@ -1,0 +1,362 @@
+{
+    "topHeader": {
+        "saleContent": "Khuyến mãi mùa hè cho tất cả đồ bơi và giao hàng nhanh miễn phí - GIẢM 50%!",
+        "saleLink": "Mua sắm ngay",
+        "selectLanguage": "Lựa chọn ngôn ngữ"
+    },
+    "header": {
+        "searchTitle": "Bạn đang tìm kiếm gì?",
+        "user": {
+            "title": "Cài đặt",
+            "manageMyAccount": "Quản lý tài khoản",
+            "myOrder": "Đơn hàng của tôi",
+            "myCancellations": "Đơn hàng đã hủy",
+            "myReviews": "Đánh giá của tôi",
+            "logout": "Đăng xuất"
+        }
+    },
+    "footer": {
+        "contact": "Liên hệ",
+        "copy": "Bản quyền Rimel {{currentYear}}. Mọi quyền được bảo lưu"
+    },
+    "loginPage": {
+        "title": "Đăng nhập vào Exclusive",
+        "content": "Nhập thông tin cá nhân vào bên dưới",
+        "form": {
+            "contact": {
+                "label": "Email hoặc số điện thoại",
+                "placeholder": "Email hoặc số điện thoại"
+            },
+            "password": {
+                "label": "Mật khẩu",
+                "placeholder": "Mật khẩu"
+            }
+        },
+        "button": "Đăng nhập",
+        "forgetPassword": "Quên mật khẩu?"
+    },
+    "signUpPage": {
+        "title": "Tạo tài khoản",
+        "content": "Nhập thông tin cá nhân vào bên dưới",
+        "form": {
+            "name": {
+                "label": "Họ và tên",
+                "placeholder": "Họ và tên"
+            },
+            "contact": {
+                "label": "Email hoặc số điện thoại",
+                "placeholder": "Email hoặc số điện thoại"
+            },
+            "password": {
+                "label": "Mật khẩu",
+                "placeholder": "Mật khẩu"
+            }
+        },
+        "button": "Đăng ký",
+        "haveAccount": "Bạn đã có tài khoản",
+        "linkLogin": "Đăng nhập"
+    },
+    "loginWithGoogle": "Đăng nhập với Google",
+    "validate": {
+        "name": "Họ và tên",
+        "password": "Mật khẩu",
+        "minLength": "{{objectName}} ít nhất phải có {{minimumValue}} kí tự",
+        "maxLength": "{{objectName}} tối đa {{maximumValue}} kí tự",
+        "regexSchema": "{{objectName}} phải có ít nhất 1 chữ cái 1 chữ số và 1 kí tự đặc biệt"
+    },
+    "home": {
+        "addToCart": "Thêm vào giỏ hàng",
+        "addToCartDialog": {
+            "title": "Thêm vào giỏ hàng thành công",
+            "colors": "Màu sắc",
+            "size": "Kích thước",
+            "price": "Giá",
+            "buttonBack": "Tiếp tục mua hàng",
+            "buttonCheckout": "Thanh toán",
+            "similarProduct": "Sản phẩm tương tự"
+        },
+        "categoriesNav": "Danh mục sản phẩm",
+        "flashSale": {
+            "title": "Hôm nay",
+            "content": "Khuyến mại chớp nhoáng"
+        },
+        "countingTime": {
+            "days": "Ngày",
+            "hours": "Giờ",
+            "minutes": "Phút",
+            "seconds": "Giây"
+        },
+        "categories": {
+            "title": "Danh mục",
+            "content": "Duyệt theo danh mục"
+        },
+        "monthSale": {
+            "title": "Tháng này",
+            "content": "Sản phẩm bán chạy nhất"
+        },
+        "bottomBanner": {
+            "title": "Danh mục",
+            "content": "Nâng cao trải nghiệm âm nhạc của bạn",
+            "button": "Mua ngay!"
+        },
+        "explore": {
+            "title": "Nổi bật",
+            "content": "Mới đến"
+        },
+        "buttonViewAll": "Xem tất cả sản phẩm",
+        "arrival": {
+            "title": "Nổi bật",
+            "content": "Hàng mới về",
+            "item": [
+                {
+                    "title": "PlayStation 5",
+                    "content": "Phiên bản đen trắng của PS5 sắp được bán ra."
+                },
+                {
+                    "title": "Bộ sưu tập dành cho phụ nữ",
+                    "content": "Bộ sưu tập dành cho phụ nữ nổi bật mang đến cho bạn một phong cách khác."
+                },
+                {
+                    "title": "Loa",
+                    "content": "Loa không dây Amazon"
+                },
+                {
+                    "title": "Nước hoa",
+                    "content": "GUCCI INTENSE OUD EDP"
+                }
+            ],
+            "button": "Mua ngay"
+        },
+        "support": [
+            {
+                "title": "GIAO HÀNG MIỄN PHÍ VÀ NHANH CHÓNG",
+                "content": "Giao hàng miễn phí cho tất cả các đơn hàng trên {{objectName}}"
+            },
+            {
+                "title": "DỊCH VỤ KHÁCH HÀNG 24/7",
+                "content": "Hỗ trợ khách hàng thân thiện 24/7"
+            },
+            {
+                "title": "ĐẢM BẢO HOÀN TIỀN",
+                "content": "Chúng tôi hoàn lại tiền trong vòng 30 ngày"
+            }
+        ]
+    },
+    "productDetail": {
+        "review": "Đánh giá",
+        "inStock": "Còn hàng",
+        "outStock": "Hết hàng",
+        "colors": "Màu sắc",
+        "size": "Kích thước",
+        "buttonBuy": "Mua ngay",
+        "support": {
+            "deliver": {
+                "title": "Giao hàng miễn phí",
+                "content": "Nhập mã bưu chính của bạn để biết khả năng giao hàng"
+            },
+            "return": {
+                "title": "Trả hàng",
+                "content": "Trả hàng miễn phí trong 30 ngày",
+                "details": "Chi tiết"
+            }
+        },
+        "relatedItem": "Sản phẩm tương tự"
+    },
+    "cart": {
+        "titleButton": "Quay lại cửa hàng",
+        "table": {
+            "products": "Sản phẩm",
+            "price": "Giá",
+            "quantity": "Số lượng",
+            "subtotal": "Tổng số tiền"
+        },
+        "buttonCoupon": "Áp dụng mã",
+        "inputCoupon": "Mã giảm giá",
+        "validateCoupon": {
+            "min": "Tối thiểu",
+            "regex": "Không hợp lệ"
+        },
+        "shipping": "Miễn phí",
+        "pay": {
+            "title": "Tổng cộng giỏ hàng",
+            "subtotal": "Tổng cộng",
+            "shipping": "Vận chuyển",
+            "discount": "Giảm giá",
+            "total": "Tổng",
+            "button": "Tiến hành thanh toán",
+            "removeDiscount": "Xóa mã giảm giá",
+            "expirationDate": "Ngày hết hạn"
+        }
+    },
+    "wishList": {
+        "title": "Danh sách yêu thích",
+        "button": "Di chuyển tất cả sang giỏ hàng",
+        "justForYou": {
+            "title": "Chỉ dành cho bạn"
+        }
+    },
+    "checkout": {
+        "title": "Chi tiết thanh toán",
+        "shipping": "Miễn phí",
+        "pay": {
+            "title": "Tổng cộng giỏ hàng",
+            "subtotal": "Tổng cộng",
+            "shipping": "Vận chuyển",
+            "discount": "Giảm giá",
+            "total": "Tổng",
+            "button": "Tiến hành thanh toán"
+        },
+        "form": {
+            "firstName": {
+                "label": "Tên"
+            },
+            "companyName": {
+                "label": "Tên công ty"
+            },
+            "streetAddress": {
+                "label": "Địa chỉ đường phố"
+            },
+            "apartment": {
+                "label": "Căn hộ, tầng, v.v. (tùy chọn)"
+            },
+            "city": {
+                "label": "Thị trấn/Thành phố"
+            },
+            "phoneNumber": {
+                "label": "Số điện thoại"
+            },
+            "emailAddress": {
+                "label": "Địa chỉ email"
+            },
+            "validate": {
+                "required": "Trường này là bắt buộc",
+                "email": "Địa chỉ email không hợp lệ",
+                "phoneNumber": "Số điện thoại không hợp lệ"
+            }
+        },
+        "saveInfo": "Lưu thông tin này để thanh toán nhanh hơn vào lần sau",
+        "payMethod": {
+            "bank": "Ngân hàng",
+            "cash": "Thanh toán khi nhận hàng"
+        },
+        "button": "Đặt hàng",
+        "emptyCart": "Giỏ hàng của bạn trống"
+    },
+    "profile": {
+        "title": "Thay đổi hồ sơ",
+        "form": {
+            "firstName": {
+                "label": "Tên",
+                "validate": {
+                    "required": "Tên là bắt buộc"
+                }
+            },
+            "lastName": {
+                "label": "Họ"
+            },
+            "emailAddress": {
+                "label": "Địa chỉ Email",
+                "validate": {
+                    "required": "Địa chỉ email là bắt buộc"
+                }
+            },
+            "streetAddress": {
+                "label": "Địa chỉ",
+                "validate": {
+                    "required": "Địa chỉ là bắt buộc"
+                }
+            },
+            "currentPassword": {
+                "label": "Thay đổi mật khẩu"
+            },
+            "newPassword": {
+                "label": "Mật khẩu mới"
+            },
+            "confirmNewPassword": {
+                "label": "Xác nhận mật khẩu mới",
+                "validate": {
+                    "match": "Mật khẩu không khớp"
+                }
+            },
+            "submit": "Lưu thay đổi",
+            "cancel": "Hủy"
+        },
+        "passwordSectionTitle": "Thay đổi mật khẩu"
+    },
+    "contact": {
+        "info": {
+            "phone": {
+                "title": "Gọi cho chúng tôi",
+                "content": "Chúng tôi phục vụ 24/7, 7 ngày một tuần.",
+                "text": "Điện thoại"
+            },
+            "mail": {
+                "title": "Viết thư cho chúng tôi",
+                "content": "Hãy điền vào biểu mẫu của chúng tôi và chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ.",
+                "text": "Email"
+            }
+        },
+        "form": {
+            "name": {
+                "label": "Tên của bạn",
+                "validate": {
+                    "required": "Tên của bạn là bắt buộc"
+                }
+            },
+            "email": {
+                "label": "Email của bạn",
+                "validate": {
+                    "required": "Email của bạn là bắt buộc"
+                }
+            },
+            "phone": {
+                "label": "Số điện thoại của bạn",
+                "validate": {
+                    "required": "Số điện thoại của bạn là bắt buộc"
+                }
+            },
+            "message": {
+                "label": "Lời nhắn của bạn",
+                "validate": {
+                    "required": "Lời nhắn là bắt buộc"
+                }
+            },
+            "submit": "Gửi lời nhắn"
+        }
+    },
+    "about": {
+        "section1": {
+            "title": "Câu chuyện của chúng tôi",
+            "content1": "Ra mắt vào năm 2015, Exclusive là trang mua sắm trực tuyến hàng đầu Nam Á với sự hiện diện tích cực tại Bangladesh. Được hỗ trợ bởi nhiều giải pháp tiếp thị, dữ liệu và dịch vụ được thiết kế riêng, Exclusive có 10.500 nhân viên bán hàng và 300 thương hiệu, phục vụ 3 triệu khách hàng trên khắp khu vực.",
+            "content2": "Exclusive cung cấp hơn 1 triệu sản phẩm, phát triển rất nhanh. Exclusive cung cấp nhiều loại sản phẩm khác nhau trong các danh mục từ người tiêu dùng."
+        },
+        "section2": [
+            {
+                "title": "10,5 nghìn",
+                "content": "Người bán đang hoạt động trên trang web của chúng tôi"
+            },
+            {
+                "title": "33 nghìn",
+                "content": "Bán sản phẩm hàng tháng"
+            },
+            {
+                "title": "45,5 nghìn",
+                "content": "Khách hàng đang hoạt động trên trang web của chúng tôi"
+            },
+            {
+                "title": "25 nghìn",
+                "content": "Doanh số bán hàng gộp hàng năm trên trang web của chúng tôi"
+            }
+        ]
+    },
+    "404": {
+        "title": "Không tìm thấy trang.",
+        "content": "Có vẻ bạn đã bị lạc đường. Hãy thử vào trang chủ và tìm sản phẩm bạn cần",
+        "button": "Quay về trang chủ"
+    },
+    "develop": {
+        "title": "Trang web này đang trong quá trình xây dựng",
+        "content": "Vui lòng truy cập sau",
+        "button": "Quay về trang chủ"
+    }
+}
