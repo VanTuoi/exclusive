@@ -24,7 +24,7 @@ const Custom404: NextPageWithLayout = memo(() => {
                 variant="h4"
                 sx={{
                     fontFamily: "Inter",
-                    fontSize: { xs: "24px", md: "40px" },
+                    fontSize: { xs: "22px", md: "40px" },
                     mt: { xs: "20px", md: "10px" },
                     fontWeight: 500,
                     lineHeight: "45px"
