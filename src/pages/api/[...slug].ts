@@ -1,4 +1,3 @@
-import { parse } from "cookie";
 import { createProxyMiddleware } from "http-proxy-middleware";
 import { NextApiRequest, NextApiResponse } from "next";
 
@@ -20,19 +19,15 @@ const proxy = createProxyMiddleware({
 });
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-    const cookieHeader: string = req.headers.cookie || "";
-    const cookies: Record<string, string> = parse(cookieHeader);
-    const accessToken: string | undefined = cookies["accessToken"];
+    const accessToken: string | undefined = req.cookies["accessToken"];
 
     const url = req.url || "";
     const pathname = url.split("?")[0];
 
     const paths = ["/user", "/auth"];
 
-    if (paths.some((path) => pathname.startsWith(path))) {
-        if (accessToken) {
-            req.headers["Authorization"] = `Bearer ${accessToken}`;
-        }
+    if (paths.some((path) => pathname.startsWith(path)) && accessToken) {
+        req.headers["Authorization"] = `Bearer ${accessToken}`;
     }
 
     req.headers.cookie = "";
