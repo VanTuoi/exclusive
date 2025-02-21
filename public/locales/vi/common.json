@@ -4,20 +4,67 @@
         "saleLink": "Mua sắm ngay",
         "selectLanguage": "Lựa chọn ngôn ngữ"
     },
-    "header": {
-        "searchTitle": "Bạn đang tìm kiếm gì?",
-        "user": {
-            "title": "Cài đặt",
-            "manageMyAccount": "Quản lý tài khoản",
-            "myOrder": "Đơn hàng của tôi",
-            "myCancellations": "Đơn hàng đã hủy",
-            "myReviews": "Đánh giá của tôi",
-            "logout": "Đăng xuất"
-        }
-    },
     "footer": {
         "contact": "Liên hệ",
-        "copy": "Bản quyền Rimel {{currentYear}}. Mọi quyền được bảo lưu"
+        "copy": "Bản quyền Rimel {{currentYear}}. Đã đăng ký bản quyền",
+        "subscribe": "Đăng ký",
+        "sale": "Giảm 10% cho đơn đầu",
+        "email": {
+            "placeholder": "Nhập email của bạn"
+        },
+        "support": "Hỗ trợ",
+        "sections": [
+            {
+                "title": "Tài khoản",
+                "items": [
+                    {
+                        "name": "Tài khoản của tôi",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Đăng nhập / Đăng ký",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Giỏ hàng",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Danh sách mong muốn",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Cửa hàng",
+                        "url": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Liên kết nhanh",
+                "items": [
+                    {
+                        "name": "Chính sách bảo mật",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Điều khoản sử dụng",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Câu hỏi thường gặp",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Liên hệ",
+                        "url": "#"
+                    }
+                ]
+            }
+        ],
+        "downloadApp": {
+            "title": "Tải xuống ứng dụng",
+            "content": "Tiết kiệm 3 đô la cho người dùng mới"
+        }
     },
     "loginPage": {
         "title": "Đăng nhập vào Exclusive",

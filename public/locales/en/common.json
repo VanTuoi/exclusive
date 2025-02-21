@@ -18,8 +18,63 @@
     "footer": {
         "contact": "Contact",
         "copy": "Copyright Rimel {{currentYear}}. All right reserved",
+        "subscribe": "Subscribe",
+        "sale": "Get 10% off your first order",
         "email": {
             "placeholder": "Enter your email"
+        },
+        "support": "Support",
+        "sections": [
+            {
+                "title": "Account",
+                "items": [
+                    {
+                        "name": "My Account",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Login / Register",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Cart",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Wishlist",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Shop",
+                        "url": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Quick Link",
+                "items": [
+                    {
+                        "name": "Privacy Policy",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Terms Of Use",
+                        "url": "#"
+                    },
+                    {
+                        "name": "FAQ",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Contact",
+                        "url": "#"
+                    }
+                ]
+            }
+        ],
+        "downloadApp": {
+            "title": "Download Our App",
+            "content": "Save $3 with App New User Only"
         }
     },
     "loginPage": {

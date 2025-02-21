@@ -1,26 +1,4 @@
-import { FooterItem, SocialItem } from "~/types/pages/footer";
-
-export const FOOTER_ITEMS: { title: string; items: FooterItem[] }[] = [
-    {
-        title: "Account",
-        items: [
-            { name: "My Account", url: "#" },
-            { name: "Login / Register", url: "#" },
-            { name: "Cart", url: "#" },
-            { name: "Wishlist", url: "#" },
-            { name: "Shop", url: "#" }
-        ]
-    },
-    {
-        title: "Quick Link",
-        items: [
-            { name: "Privacy Policy", url: "#" },
-            { name: "Terms Of Use", url: "#" },
-            { name: "FAQ", url: "#" },
-            { name: "Contact", url: "#" }
-        ]
-    }
-];
+import { SocialItem } from "~/types/pages/footer";
 
 export const SOCIALS: SocialItem[] = [
     {

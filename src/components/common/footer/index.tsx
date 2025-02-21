@@ -2,9 +2,9 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 import { Box, Container, Typography, useTheme } from "@mui/material";
+import { useTranslation } from "next-i18next";
 import { memo } from "react";
 
-import { FOOTER_ITEMS } from "~/constants";
 import { useHome } from "~/hooks";
 import { FooterItem } from "~/types";
 
@@ -18,7 +18,13 @@ import { CopyRight } from "./copy-right";
 import { SendMailComponent } from "./send-mail";
 
 export const Footer = memo(() => {
+    const { t } = useTranslation();
     const { dataSupport, dataSocial } = useHome();
+
+    const FOOTER_ITEMS = t("footer.sections", { returnObjects: true }) as {
+        title: string;
+        items: FooterItem[];
+    }[];
 
     const theme = useTheme();
 
@@ -61,7 +67,7 @@ export const Footer = memo(() => {
                         },
                         paddingTop: 10
                     }}
-                    gap={"52px"}
+                    gap={"20px"}
                 >
                     <Box
                         sx={{
@@ -72,9 +78,9 @@ export const Footer = memo(() => {
                         }}
                     >
                         <Logo justifyContent="flex-start" />
-                        <Typography variant="h3">Subscribe</Typography>
+                        <Typography variant="h3">{t("footer.subscribe")}</Typography>
                         <Box display="flex" flexDirection={"column"} gap={2}>
-                            <Typography variant="h4">Get 10% off your first order</Typography>
+                            <Typography variant="h4">{t("footer.sale")}</Typography>
                             <SendMailComponent />
                         </Box>
                     </Box>
@@ -87,7 +93,7 @@ export const Footer = memo(() => {
                             maxWidth: "175px"
                         }}
                     >
-                        <Typography variant="h3">Support</Typography>
+                        <Typography variant="h3">{t("footer.support")}</Typography>
                         <Box display="flex" flexDirection={"column"} gap={2}>
                             {dataSupport?.map((item) => {
                                 return (
@@ -110,11 +116,11 @@ export const Footer = memo(() => {
                         }}
                     >
                         <Typography variant="h3" sx={{ marginBottom: "7px" }}>
-                            Download App
+                            {t("footer.downloadApp.title")}
                         </Typography>
                         <Box display="flex" flexDirection={"column"} gap={1}>
                             <Typography variant="h5" sx={{ fontSize: "12px", fontWeight: 500 }} color="text.secondary">
-                                Save $3 with App New User Only
+                                {t("footer.downloadApp.content")}
                             </Typography>
                             <Box display="flex" flexDirection={"row"} gap={"8px"}>
                                 <Image src={"/assets/imgs/qr-code.webp"} height={80} width={80} alt="qrcode"></Image>
