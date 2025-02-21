@@ -17,6 +17,9 @@ export const productApi = (type: "server" | "client" = "client") => {
         getProductDetails: (id: string) => {
             return api.get<ResponseData<Product>>(API_URLS.PUBLIC_API.PRODUCT_DETAILS + `/${id}`);
         },
+        getProductByName: (entries: [string, string | number][]) => {
+            return api.get<ResponseData<[Product]>>(API_URLS.PUBLIC_API.PRODUCTS + arrayToQueryString(entries));
+        },
         getProductCategories: () => {
             return api.get<ResponseData<[]>>(API_URLS.PUBLIC_API.PRODUCT_CATEGORIES);
         },

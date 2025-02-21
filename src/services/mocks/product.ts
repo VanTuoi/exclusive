@@ -107,6 +107,45 @@ export function product(mock: MockAdapter) {
         ];
     });
 
+    mock.onGet(new RegExp(`${API_URLS.PUBLIC_API.PRODUCTS}\\?(.*)`)).reply((config) => {
+        const match = config.url?.match(/\?(.*)/);
+        const searchTerm = match ? decodeURIComponent(match[1]) : "unknown";
+
+        return [
+            200,
+            {
+                success: true,
+                message: `Search results for '${searchTerm.replace("search=", "")}'`,
+                data: [
+                    {
+                        id: Math.floor(Math.random() * 1000),
+                        title: searchTerm.replace("search=", ""),
+                        sizes: [],
+                        price: 29.99,
+                        description: `This is a sample product named ${searchTerm.replace("search=", "")}.`,
+                        category: "Sample Category",
+                        image: [
+                            {
+                                url: "/assets/imgs/products/Playstation-5-Tay-cam-PS5-Trang.webp",
+                                alt: searchTerm,
+                                colorText: "white",
+                                colorCode: "#FFFFFF",
+                                isIllustration: false
+                            }
+                        ],
+                        rating: {
+                            rate: 4.5,
+                            count: Math.floor(Math.random() * 100)
+                        },
+                        isNew: false,
+                        promotions: [],
+                        finalPrice: 29.99
+                    }
+                ]
+            }
+        ];
+    });
+
     mock.onGet(`${API_URLS.PUBLIC_API.PRODUCTS}`).reply(200, {
         success: true,
         message: "Get product successfully",

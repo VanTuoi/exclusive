@@ -6,6 +6,7 @@
     },
     "header": {
         "searchTitle": "What are you looking for?",
+        "noResult": "No result found",
         "user": {
             "title": "Open settings",
             "manageMyAccount": "Manage My Account",
