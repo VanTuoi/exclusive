@@ -4,6 +4,18 @@
         "saleLink": "Mua sắm ngay",
         "selectLanguage": "Lựa chọn ngôn ngữ"
     },
+    "header": {
+        "searchTitle": "Bạn đang tìm kiếm gì?",
+        "noResult": "Không tìm thấy kết quả",
+        "user": {
+            "title": "Cài đặt",
+            "manageMyAccount": "Quản lý tài khoản",
+            "myOrder": "Đơn hàng của tôi",
+            "myCancellations": "Đơn hàng đã hủy",
+            "myReviews": "Đánh giá của tôi",
+            "logout": "Đăng xuất"
+        }
+    },
     "footer": {
         "contact": "Liên hệ",
         "copy": "Bản quyền Rimel {{currentYear}}. Đã đăng ký bản quyền",
